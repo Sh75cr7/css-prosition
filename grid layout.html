@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid layout with flex box</title>
+    <style>
+        .container{
+            display: grid;
+            grid-gap: 30px 18px;
+            grid-template-columns: 250px 1fr 1fr;
+            text-align: center;
+        }
+        .container:hover{
+            background-color: yellow ;
+        }
+        .ariticle{
+            background-color: burlywood;
+        }
+        .ariticle:hover{
+            background-color: chartreuse;
+        }
+        .ariticle-1{
+           grid-row: 1/span 4;
+        }
+        .ariticle-2{
+            grid-column: 2/span 3;
+        }
+    </style>
+</head>
+<body>
+    <section class="container">
+        <article class="ariticle ariticle-1">
+            <h3>aritice-1</h3>
+        </article>
+        <article class="ariticle ariticle-2">
+            <h3>aritice-2</h3>
+        </article>
+        <article class="ariticle ariticle-3">
+            <h3>aritice-3</h3>
+        </article>
+        <article class="ariticle ariticle-4">
+            <h3>aritice-4</h3>
+        </article>
+        <article class="ariticle ariticle-5">
+            <h3>aritice-5</h3>
+        </article>
+        <article class="ariticle ariticle-6">
+            <h3>aritice-6</h3>
+        </article>
+        <article class="ariticle ariticle-7">
+            <h3>aritice-7</h3>
+        </article>
+        <article class="ariticle ariticle-8">
+            <h3>aritice-8</h3>
+        </article>
+        <article class="ariticle ariticle-9">
+            <h3>aritice-9</h3>
+        </article>
+        <article class=" ariticle ariticle-10">
+            <h3>aritice-10</h3>
+        </article>
+        <article class="ariticle ariticle-11">
+            <h3>aritice-11</h3>
+        </article>
+        <article class="ariticle ariticle-12">
+            <h3>aritice-12</h3>
+        </article>
+        <article class="ariticle ariticle-13">
+            <h3>aritice-13</h3>
+        </article>
+        <article class="ariticle ariticle-14">
+            <h3>aritice-14</h3>
+        </article>
+        <article class="ariticle ariticle-15">
+            <h3>aritice-15</h3>
+        </article>
+
+    </section>
+</body>
+</html>
